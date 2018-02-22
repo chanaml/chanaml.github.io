@@ -1,0 +1,108 @@
+---
+layout: default
+---
+<style>
+/* Note: you don't need this body styling. It is purely for example purposes */
+body{
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+a {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Side By Side */
+
+#fm-medium-embed{
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fm-post-wrapper{
+  display: inline-block;
+  border-radius: 3px;
+  width: 310px;
+  padding: 15px;
+  background: #fdfdfd;
+  text-align: left;
+  margin: 10px;
+  min-height: 340px;
+  border: 1px solid #bbb;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+
+.fm-post-title{
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 50;
+  letter-spacing: 1px;
+  height: 25px;
+  white-space: nowrap;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 1em;
+}
+
+.fm-post-sub-title{
+  font-size: 14px;
+  min-height: 130px;
+  line-height: 24px;
+  color: #333;
+}
+
+.fm-medium-profile{
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+
+.fm-medium-profile a{
+  display: inline-block;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-indent: 6px;
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  padding-top: 2em;
+}
+
+</style>
+
+<h1 class="title">Recent posts</h1>
+
+<div class="home">
+
+  <div id="fm-medium-embed"></div>
+  <script src="//data.feedmirror.com/embed.js?t=13323"></script>
+  <script type="text/javascript">
+    var fmSettings = {
+      feedURL: 'https://data.feedmirror.com/-L5lEx2K2409I0T1-41H.json',
+      integration: 'medium-embed',
+      linkOutText: 'Continue reading...',
+      linkToMediumProfileText: 'Subscribe on Medium',
+      postsCount:  4,
+      element: 'fm-medium-embed'
+    };
+    feedmirror.initialize(fmSettings);
+  </script>
+
+
+</div>
