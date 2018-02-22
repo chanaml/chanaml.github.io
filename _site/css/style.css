@@ -394,9 +394,10 @@ pre {
   margin-top: 1em; }
 
 .site-description {
+  text-align: left;
   font-size: 14px;
   letter-spacing: 2px;
-  text-indent: 6px;
+  text-indent: 0px;
   font-family: 'Josefin Sans'; }
 
 .exclamationMark {
@@ -490,7 +491,7 @@ pre {
   letter-spacing: 1px; }
 
 .footer-col {
-  float: left;
+  float: right;
   margin-bottom: 15px;
   padding-left: 15px; }
 
@@ -503,7 +504,7 @@ pre {
   width: calc(20% - (30px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
+  width: -webkit-calc(100% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
