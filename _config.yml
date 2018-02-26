@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kelvinkchan.com" # the base hostname & protocol for your site
 twitter_username: kelvinkchan
 github_username:  chanaml
-linkedin_username: kelvin-k-chan-9222232b
+linkedin_username: kelvin-k-chan
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
