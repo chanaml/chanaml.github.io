@@ -29,10 +29,10 @@ permalink: /projects/
 </div>
 <br>
 <div class="postTitle">
-<a class='postLink' href="http://kelvinkchan.com/healthcare_costs/">How does money flow across U.S. Healthcare?</a>
+<a class='postLink' href="http://kelvinkchan.com/healthcare_costs/">How does money flow across the U.S. Healthcare System?</a>
 </div>
 <div class="postExt">
-<p>A data exploration of how money moves across the U.S. Healthcare system built based on D3 Collapsible Tree library.</p>
+<p>A data exploration of how money moves across the U.S. Healthcare system (based on D3 Collapsible Tree library).</p>
 
 
 </div>
